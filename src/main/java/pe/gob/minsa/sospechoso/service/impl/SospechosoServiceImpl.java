@@ -21,10 +21,10 @@ public class SospechosoServiceImpl implements SospechosoService {
 	@Override
 	public String registraSospechoso(Sospechoso sospechoso) {
 		Utileria util = new Utileria();		
-		String respuesta = "0000";		
+		String respuesta = "000";		
 		try {
 			String respValida = util.validaEntradas(sospechoso);
-			if(!(respValida.equals("0000"))) {
+			if(!(respValida.equals("000"))) {
 				return respValida;
 			}
 			respuesta = _sospechosoDao.registraSospechoso(sospechoso);

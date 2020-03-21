@@ -5,58 +5,58 @@ import pe.gob.minsa.sospechoso.model.Sospechoso;
 public class Utileria {
 		
 	public String validaEntradas(Sospechoso sospechoso) {
-	String respuesta = "0000";
+	String respuesta = "000";
 	if(sospechoso.getTipDocumento() == null || "".equals(sospechoso.getTipDocumento().trim())) {
-		return respuesta = "0100";		
+		return respuesta = "100";		
 	}
 	if(sospechoso.getNumDocumento() == null || "".equals(sospechoso.getNumDocumento().trim())) {
-		return respuesta = "0101";
+		return respuesta = "101";
 	}
 	if(sospechoso.getNombres() == null || "".equals(sospechoso.getNombres().trim())) {
-		return respuesta = "0102";
+		return respuesta = "102";
 	}	
 	if(sospechoso.getApePrimer() == null || "".equals(sospechoso.getApePrimer().trim())) {
-		return respuesta = "0103";
+		return respuesta = "103";
 	}
 	if(sospechoso.getApeSegundo() == null || "".equals(sospechoso.getApeSegundo().trim())) {
-		return respuesta = "0104";
+		return respuesta = "104";
 	}
 	if(sospechoso.getDireccion() == null || "".equals(sospechoso.getDireccion().trim())) {
-		return respuesta = "0105";
+		return respuesta = "105";
 	}
 	if(sospechoso.getCodUbigeo() == null || "".equals(sospechoso.getCodUbigeo().trim())) {
-		return respuesta = "0106";
+		return respuesta = "106";
 	}
 	if(sospechoso.getNumTelefono() == null || "".equals(sospechoso.getNumTelefono().trim())) {
-		return respuesta = "0107";
+		return respuesta = "107";
 	}
 	if(sospechoso.getSexo()== null || "".equals(sospechoso.getSexo().trim())) {
-		return respuesta = "0108";
+		return respuesta = "108";
 	}
 	if(sospechoso.getEdad() == null || "".equals(sospechoso.getEdad().trim())) {
-		return respuesta = "0109";
+		return respuesta = "109";
 	}
 	if(sospechoso.getCodPaisNatal() == null || "".equals(sospechoso.getCodPaisNatal().trim())) {
-		return respuesta = "0110";
+		return respuesta = "110";
 	}
 	if(sospechoso.getContactoVirus() == null || "".equals(sospechoso.getContactoVirus().trim())) {
-		return respuesta = "0111";
+		return respuesta = "111";
 	}
 	if(sospechoso.getVisitoPaisCorona() == null || "".equals(sospechoso.getVisitoPaisCorona().trim())) {
-		return respuesta = "0112";
+		return respuesta = "112";
 	}	
 	if(sospechoso.getVisitoPaisCorona().equals("1")) {
 		if(sospechoso.getCodPais1() == null || "".equals(sospechoso.getCodPais1().trim())) {
-			return respuesta = "0113";
+			return respuesta = "113";
 		}
 		if(sospechoso.getFecPais1()==null || "".equals(sospechoso.getFecPais1())) {
-			return respuesta = "0114";
+			return respuesta = "114";
 		}
 		if(sospechoso.getFecIngresoPeru() == null || "".equals(sospechoso.getFecIngresoPeru().trim())) {
-			return respuesta = "0116";
+			return respuesta = "116";
 		}
 		if(sospechoso.getHorIngresoPeru() == null || "".equals(sospechoso.getHorIngresoPeru().trim())) {
-			return respuesta = "0117";
+			return respuesta = "117";
 		}
 	}
 	if(sospechoso.getSintomaFiebre().equals("1") || 
@@ -65,7 +65,7 @@ public class Utileria {
 			sospechoso.getSintomaGarganta().equals("1")||
 			sospechoso.getSintomaRespiracion().equals("1")) {
 		if(sospechoso.getFecInicioSintomas() == null || "".equals(sospechoso.getFecInicioSintomas())) {
-			return respuesta = "0115";
+			return respuesta = "115";
 		}
 	}	
 	return respuesta;

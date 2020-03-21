@@ -1,0 +1,29 @@
+version: '2.3'
+services:
+  mcsregistrosospechoso:
+    image: reposdocker.minsa.gob.pe/mcs-registro-sospechoso:0.0.1
+    container_name: mcsregistrosospechoso
+    hostname: mcsregistrosospechoso
+    dns:
+      - 10.10.2.6
+      - 10.10.3.6
+    ports:
+      - "18072:8080"
+    volumes:
+      - "./mcs-minsa:/opt/data/mcs-minsa"
+    cpus: 0.9
+    cpuset: '0'
+    restart: always
+    mem_limit: '2048m'
+    networks:
+      covidnetwork:
+        ipv4_address: 11.11.1.2
+ 
+networks:
+  covidnetwork:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 11.11.1.0/24
+          gateway: 11.11.1.254
