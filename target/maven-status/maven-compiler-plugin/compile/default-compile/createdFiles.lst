@@ -1,0 +1,12 @@
+pe/gob/minsa/sospechoso/config/AppConfig.class
+pe/gob/minsa/sospechoso/dao/impl/SospechosoDaoImpl.class
+pe/gob/minsa/sospechoso/service/SospechosoService.class
+META-INF/spring-configuration-metadata.json
+pe/gob/minsa/sospechoso/util/Utileria.class
+pe/gob/minsa/sospechoso/McsRegistroSospechosoApplication.class
+pe/gob/minsa/sospechoso/bean/ResponseRegistraSospechoso.class
+pe/gob/minsa/sospechoso/dao/SospechosoDao.class
+pe/gob/minsa/sospechoso/model/Sospechoso.class
+pe/gob/minsa/sospechoso/controller/SospechosoController.class
+pe/gob/minsa/sospechoso/service/impl/SospechosoServiceImpl.class
+pe/gob/minsa/sospechoso/config/SwaggerConfig.class

@@ -1,0 +1,356 @@
+2020-03-20 18:23:28,280 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 5677 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 18:23:28,289 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 18:23:28,291 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 18:23:31,154 [restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource' to javax.sql.DataSource:
+
+    Property: spring.datasource.driver-class-name
+    Value: org.postgresql.Driver
+    Origin: "spring.datasource.driver-class-name" from property source "class path resource [mcs-registro-sospechoso.properties]"
+    Reason: org.postgresql.Driver
+
+Action:
+
+Update your application's configuration
+
+2020-03-20 18:29:40,529 [main] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplicationTests - Starting McsRegistroSospechosoApplicationTests on kevin-Satellite-C845 with PID 6038 (started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 18:29:40,543 [main] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplicationTests - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 18:29:40,547 [main] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplicationTests - No active profile set, falling back to default profiles: default
+2020-03-20 18:29:46,842 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 18:29:46,887 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 18:29:46,912 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 18:29:46,948 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Ljava/lang/String;
+2020-03-20 18:29:46,949 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 18:29:46,951 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 18:29:46,957 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 18:29:46,975 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Did not find any parameter models for java.lang.String
+2020-03-20 18:29:46,998 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to:string
+2020-03-20 18:29:47,003 [main] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 18:29:47,005 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:string
+2020-03-20 18:29:47,125 [main] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplicationTests - Started McsRegistroSospechosoApplicationTests in 7.242 seconds (JVM running for 8.975)
+2020-03-20 18:30:27,919 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 6108 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 18:30:27,926 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 18:30:27,927 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 18:30:31,013 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 18:30:31,029 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 18:30:31,042 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 18:30:31,060 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Ljava/lang/String;
+2020-03-20 18:30:31,061 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 18:30:31,062 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 18:30:31,064 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 18:30:31,073 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Did not find any parameter models for java.lang.String
+2020-03-20 18:30:31,088 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to:string
+2020-03-20 18:30:31,091 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 18:30:31,092 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:string
+2020-03-20 18:30:31,166 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Started McsRegistroSospechosoApplication in 3.916 seconds (JVM running for 5.009)
+2020-03-20 18:31:47,967 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 6108 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 18:31:47,967 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 18:31:47,967 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 18:31:48,831 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 18:31:48,832 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 18:31:48,836 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 18:31:48,838 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Ljava/lang/String;
+2020-03-20 18:31:48,838 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 18:31:48,838 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 18:31:48,839 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 18:31:48,839 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Did not find any parameter models for java.lang.String
+2020-03-20 18:31:48,842 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to:string
+2020-03-20 18:31:48,843 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 18:31:48,844 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:string
+2020-03-20 18:31:48,856 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Started McsRegistroSospechosoApplication in 0.967 seconds (JVM running for 82.698)
+2020-03-20 18:32:12,608 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 6108 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 18:32:12,609 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 18:32:12,609 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 18:32:13,375 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 18:32:13,377 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 18:32:13,380 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 18:32:13,382 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Ljava/lang/String;
+2020-03-20 18:32:13,382 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 18:32:13,382 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 18:32:13,383 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 18:32:13,384 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Did not find any parameter models for java.lang.String
+2020-03-20 18:32:13,386 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to:string
+2020-03-20 18:32:13,387 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 18:32:13,388 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:string
+2020-03-20 18:32:13,400 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Started McsRegistroSospechosoApplication in 0.855 seconds (JVM running for 107.242)
+2020-03-20 22:53:21,035 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 5565 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 22:53:21,050 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 22:53:21,051 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 22:53:24,385 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 22:53:24,401 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 22:53:24,414 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 22:53:24,433 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lpe/gob/minsa/sospechoso/bean/ResponseRegistraSospechoso;
+2020-03-20 22:53:24,433 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 22:53:24,435 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lpe/gob/minsa/sospechoso/model/Sospechoso;
+2020-03-20 22:53:24,435 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 22:53:24,438 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 22:53:24,537 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: Sospechoso, name: Sospechoso, schema: {} models
+2020-03-20 22:53:24,538 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key Sospechoso
+2020-03-20 22:53:24,543 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ResponseRegistraSospechoso, name: ResponseRegistraSospechoso, schema: {} models
+2020-03-20 22:53:24,543 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ResponseRegistraSospechoso
+2020-03-20 22:53:24,568 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to:ResponseRegistraSospechoso
+2020-03-20 22:53:24,571 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 22:53:24,573 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:ResponseRegistraSospechoso
+2020-03-20 22:53:24,685 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Started McsRegistroSospechosoApplication in 4.388 seconds (JVM running for 6.056)
+2020-03-20 22:54:13,007 [http-nio-8080-exec-9] ERROR pe.gob.minsa.sospechoso.dao.impl.SospechosoDaoImpl - Error retrieving database meta-data; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: The connection to the host 10.10.2.62, named instance devsqlsrv failed. Error: "java.net.SocketTimeoutException: Receive timed out". Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.
+2020-03-20 23:13:11,845 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 5565 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 23:13:11,846 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 23:13:11,846 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 23:13:12,667 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 23:13:12,668 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 23:13:12,672 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 23:13:12,673 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lpe/gob/minsa/sospechoso/bean/ResponseRegistraSospechoso;
+2020-03-20 23:13:12,674 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:13:12,674 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lpe/gob/minsa/sospechoso/model/Sospechoso;
+2020-03-20 23:13:12,674 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:13:12,674 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:13:12,693 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: Sospechoso, name: Sospechoso, schema: {} models
+2020-03-20 23:13:12,694 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key Sospechoso
+2020-03-20 23:13:12,695 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ResponseRegistraSospechoso, name: ResponseRegistraSospechoso, schema: {} models
+2020-03-20 23:13:12,695 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ResponseRegistraSospechoso
+2020-03-20 23:13:12,699 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to:ResponseRegistraSospechoso
+2020-03-20 23:13:12,700 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 23:13:12,700 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:ResponseRegistraSospechoso
+2020-03-20 23:13:12,713 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Started McsRegistroSospechosoApplication in 0.939 seconds (JVM running for 1194.085)
+2020-03-20 23:14:16,567 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 5565 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 23:14:16,567 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 23:14:16,567 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 23:14:17,300 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 23:14:17,301 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 23:14:17,304 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 23:14:17,306 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lpe/gob/minsa/sospechoso/bean/ResponseRegistraSospechoso;
+2020-03-20 23:14:17,306 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:14:17,307 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lpe/gob/minsa/sospechoso/model/Sospechoso;
+2020-03-20 23:14:17,307 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:14:17,307 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:14:17,323 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: Sospechoso, name: Sospechoso, schema: {} models
+2020-03-20 23:14:17,324 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key Sospechoso
+2020-03-20 23:14:17,326 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ResponseRegistraSospechoso, name: ResponseRegistraSospechoso, schema: {} models
+2020-03-20 23:14:17,326 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ResponseRegistraSospechoso
+2020-03-20 23:14:17,329 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to:ResponseRegistraSospechoso
+2020-03-20 23:14:17,330 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 23:14:17,330 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:ResponseRegistraSospechoso
+2020-03-20 23:14:17,342 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Started McsRegistroSospechosoApplication in 0.829 seconds (JVM running for 1258.714)
+2020-03-20 23:49:23,631 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 5565 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 23:49:23,632 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 23:49:23,632 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 23:49:24,436 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 23:49:24,437 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 23:49:24,440 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 23:49:24,443 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lpe/gob/minsa/sospechoso/bean/ResponseRegistraSospechoso;
+2020-03-20 23:49:24,443 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:49:24,444 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lpe/gob/minsa/sospechoso/model/Sospechoso;
+2020-03-20 23:49:24,444 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:49:24,444 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:49:24,459 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: Sospechoso, name: Sospechoso, schema: {} models
+2020-03-20 23:49:24,459 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key Sospechoso
+2020-03-20 23:49:24,460 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ResponseRegistraSospechoso, name: ResponseRegistraSospechoso, schema: {} models
+2020-03-20 23:49:24,460 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ResponseRegistraSospechoso
+2020-03-20 23:49:24,464 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to:ResponseRegistraSospechoso
+2020-03-20 23:49:24,465 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 23:49:24,465 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:ResponseRegistraSospechoso
+2020-03-20 23:49:24,477 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Started McsRegistroSospechosoApplication in 0.911 seconds (JVM running for 3365.849)
+2020-03-20 23:49:43,279 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 5565 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 23:49:43,280 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 23:49:43,280 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 23:49:44,047 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 23:49:44,048 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 23:49:44,051 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 23:49:44,053 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lpe/gob/minsa/sospechoso/bean/ResponseRegistraSospechoso;
+2020-03-20 23:49:44,053 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:49:44,054 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lpe/gob/minsa/sospechoso/model/Sospechoso;
+2020-03-20 23:49:44,054 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:49:44,054 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:49:44,067 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: Sospechoso, name: Sospechoso, schema: {} models
+2020-03-20 23:49:44,067 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key Sospechoso
+2020-03-20 23:49:44,068 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ResponseRegistraSospechoso, name: ResponseRegistraSospechoso, schema: {} models
+2020-03-20 23:49:44,068 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ResponseRegistraSospechoso
+2020-03-20 23:49:44,071 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to:ResponseRegistraSospechoso
+2020-03-20 23:49:44,072 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 23:49:44,072 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:ResponseRegistraSospechoso
+2020-03-20 23:49:44,083 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Started McsRegistroSospechosoApplication in 0.867 seconds (JVM running for 3385.455)
+2020-03-20 23:54:22,641 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 5565 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 23:54:22,641 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 23:54:22,642 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 23:54:23,356 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 23:54:23,357 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 23:54:23,360 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 23:54:23,362 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lpe/gob/minsa/sospechoso/bean/ResponseRegistraSospechoso;
+2020-03-20 23:54:23,362 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:54:23,363 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lpe/gob/minsa/sospechoso/model/Sospechoso;
+2020-03-20 23:54:23,363 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:54:23,363 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:54:23,375 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: Sospechoso, name: Sospechoso, schema: {} models
+2020-03-20 23:54:23,375 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key Sospechoso
+2020-03-20 23:54:23,376 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ResponseRegistraSospechoso, name: ResponseRegistraSospechoso, schema: {} models
+2020-03-20 23:54:23,376 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ResponseRegistraSospechoso
+2020-03-20 23:54:23,379 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to:ResponseRegistraSospechoso
+2020-03-20 23:54:23,379 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 23:54:23,380 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:ResponseRegistraSospechoso
+2020-03-20 23:54:23,390 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Started McsRegistroSospechosoApplication in 0.809 seconds (JVM running for 3664.762)
+2020-03-20 23:56:05,403 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 5565 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 23:56:05,404 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 23:56:05,404 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 23:56:05,636 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication]; nested exception is java.io.FileNotFoundException: class path resource [pe/gob/minsa/sospechoso/controller/SospechosoController.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181) ~[spring-context-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315) ~[spring-context-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232) ~[spring-context-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275) ~[spring-context-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95) ~[spring-context-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705) ~[spring-context-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531) ~[spring-context-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.1.13.RELEASE.jar:2.1.13.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) [spring-boot-2.1.13.RELEASE.jar:2.1.13.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) [spring-boot-2.1.13.RELEASE.jar:2.1.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) [spring-boot-2.1.13.RELEASE.jar:2.1.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.1.13.RELEASE.jar:2.1.13.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204) [spring-boot-2.1.13.RELEASE.jar:2.1.13.RELEASE]
+	at pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication.main(McsRegistroSospechosoApplication.java:10) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_242]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_242]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_242]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_242]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.13.RELEASE.jar:2.1.13.RELEASE]
+Caused by: java.io.FileNotFoundException: class path resource [pe/gob/minsa/sospechoso/controller/SospechosoController.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:180) ~[spring-core-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:51) ~[spring-core-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86) ~[spring-boot-2.1.13.RELEASE.jar:2.1.13.RELEASE]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73) ~[spring-boot-2.1.13.RELEASE.jar:2.1.13.RELEASE]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:190) ~[spring-context-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:295) ~[spring-context-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242) ~[spring-context-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199) ~[spring-context-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167) ~[spring-context-5.1.14.RELEASE.jar:5.1.14.RELEASE]
+	... 18 more
+2020-03-20 23:56:07,520 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 5565 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 23:56:07,520 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 23:56:07,520 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 23:56:08,312 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 23:56:08,313 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 23:56:08,317 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 23:56:08,318 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lpe/gob/minsa/sospechoso/bean/ResponseRegistraSospechoso;
+2020-03-20 23:56:08,318 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:56:08,319 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lpe/gob/minsa/sospechoso/model/Sospechoso;
+2020-03-20 23:56:08,319 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:56:08,319 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:56:08,336 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: Sospechoso, name: Sospechoso, schema: {} models
+2020-03-20 23:56:08,337 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key Sospechoso
+2020-03-20 23:56:08,338 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ResponseRegistraSospechoso, name: ResponseRegistraSospechoso, schema: {} models
+2020-03-20 23:56:08,338 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ResponseRegistraSospechoso
+2020-03-20 23:56:08,341 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to:ResponseRegistraSospechoso
+2020-03-20 23:56:08,341 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 23:56:08,342 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:ResponseRegistraSospechoso
+2020-03-20 23:56:08,351 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Started McsRegistroSospechosoApplication in 0.888 seconds (JVM running for 3769.723)
+2020-03-20 23:56:20,056 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 5565 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 23:56:20,056 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 23:56:20,056 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 23:56:20,798 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 23:56:20,799 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 23:56:20,802 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 23:56:20,804 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lpe/gob/minsa/sospechoso/bean/ResponseRegistraSospechoso;
+2020-03-20 23:56:20,804 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:56:20,805 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lpe/gob/minsa/sospechoso/model/Sospechoso;
+2020-03-20 23:56:20,805 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:56:20,805 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:56:20,817 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: Sospechoso, name: Sospechoso, schema: {} models
+2020-03-20 23:56:20,817 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key Sospechoso
+2020-03-20 23:56:20,818 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ResponseRegistraSospechoso, name: ResponseRegistraSospechoso, schema: {} models
+2020-03-20 23:56:20,818 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ResponseRegistraSospechoso
+2020-03-20 23:56:20,821 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to:ResponseRegistraSospechoso
+2020-03-20 23:56:20,822 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 23:56:20,822 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:ResponseRegistraSospechoso
+2020-03-20 23:56:20,835 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Started McsRegistroSospechosoApplication in 0.834 seconds (JVM running for 3782.207)
+2020-03-20 23:56:41,203 [main] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplicationTests - Starting McsRegistroSospechosoApplicationTests on kevin-Satellite-C845 with PID 7832 (started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 23:56:41,224 [main] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplicationTests - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 23:56:41,226 [main] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplicationTests - No active profile set, falling back to default profiles: default
+2020-03-20 23:56:45,264 [main] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - initialising the handler methods
+2020-03-20 23:56:45,268 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-20 23:56:46,851 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 23:56:46,909 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 23:56:46,937 [main] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Total number of request handlers 6
+2020-03-20 23:56:46,939 [main] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2020-03-20 23:56:46,941 [main] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-03-20 23:56:46,941 [main] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/servicio/v0.0.1/registra-caso], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/servicio/v0.0.1/registra-caso], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[application/json;charset=utf-8]}}
+2020-03-20 23:56:46,942 [main] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-03-20 23:56:46,942 [main] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-03-20 23:56:46,942 [main] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-03-20 23:56:46,979 [main] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Combined number of request handlers 6
+2020-03-20 23:56:46,982 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 23:56:47,005 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lpe/gob/minsa/sospechoso/bean/ResponseRegistraSospechoso;
+2020-03-20 23:56:47,008 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:56:47,009 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lpe/gob/minsa/sospechoso/model/Sospechoso;
+2020-03-20 23:56:47,009 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:56:47,012 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:56:47,124 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ResponseRegistraSospechoso, name: ResponseRegistraSospechoso, schema: {} models
+2020-03-20 23:56:47,124 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ResponseRegistraSospechoso
+2020-03-20 23:56:47,184 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: Sospechoso, name: Sospechoso, schema: {} models
+2020-03-20 23:56:47,185 [main] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key Sospechoso
+2020-03-20 23:56:47,232 [main] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to: ResponseRegistraSospechoso
+2020-03-20 23:56:47,234 [main] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:ResponseRegistraSospechoso
+2020-03-20 23:56:47,236 [main] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 23:56:47,313 [main] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplicationTests - Started McsRegistroSospechosoApplicationTests in 6.719 seconds (JVM running for 8.492)
+2020-03-20 23:56:59,760 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Starting McsRegistroSospechosoApplication on kevin-Satellite-C845 with PID 7893 (/home/kevin/Documentos/proyectos/mcs-registro-sospechoso/target/classes started by kevin in /home/kevin/Documentos/proyectos/mcs-registro-sospechoso)
+2020-03-20 23:56:59,766 [restartedMain] DEBUG pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Running with Spring Boot v2.1.13.RELEASE, Spring v5.1.14.RELEASE
+2020-03-20 23:56:59,767 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - No active profile set, falling back to default profiles: default
+2020-03-20 23:57:02,669 [restartedMain] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - initialising the handler methods
+2020-03-20 23:57:02,672 [restartedMain] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-03-20 23:57:03,087 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-20 23:57:03,104 [restartedMain] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-20 23:57:03,120 [restartedMain] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Total number of request handlers 6
+2020-03-20 23:57:03,121 [restartedMain] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+2020-03-20 23:57:03,122 [restartedMain] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-03-20 23:57:03,122 [restartedMain] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/servicio/v0.0.1/registra-caso], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/servicio/v0.0.1/registra-caso], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[application/json;charset=utf-8]}}
+2020-03-20 23:57:03,122 [restartedMain] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-03-20 23:57:03,122 [restartedMain] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-03-20 23:57:03,122 [restartedMain] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+2020-03-20 23:57:03,137 [restartedMain] DEBUG springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner - Combined number of request handlers 6
+2020-03-20 23:57:03,138 [restartedMain] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-20 23:57:03,152 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding return parameter of type Lpe/gob/minsa/sospechoso/bean/ResponseRegistraSospechoso;
+2020-03-20 23:57:03,152 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:57:03,153 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Adding input parameter of type Lpe/gob/minsa/sospechoso/model/Sospechoso;
+2020-03-20 23:57:03,153 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationModelsProvider - Finished reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:57:03,155 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider - Reading parameters models for handlerMethod |registraCaso|
+2020-03-20 23:57:03,202 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: ResponseRegistraSospechoso, name: ResponseRegistraSospechoso, schema: {} models
+2020-03-20 23:57:03,202 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key ResponseRegistraSospechoso
+2020-03-20 23:57:03,236 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Generated parameter model id: Sospechoso, name: Sospechoso, schema: {} models
+2020-03-20 23:57:03,236 [restartedMain] DEBUG springfox.documentation.spring.web.scanners.ApiModelReader - Adding a new model with key Sospechoso
+2020-03-20 23:57:03,254 [restartedMain] DEBUG springfox.documentation.spring.web.readers.operation.OperationResponseClassReader - Setting spring response class to: ResponseRegistraSospechoso
+2020-03-20 23:57:03,255 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader - Setting response class to:ResponseRegistraSospechoso
+2020-03-20 23:57:03,256 [restartedMain] DEBUG springfox.documentation.swagger.readers.operation.OperationAuthReader - Authorization count 0 for method registraCaso
+2020-03-20 23:57:03,332 [restartedMain] INFO  pe.gob.minsa.sospechoso.McsRegistroSospechosoApplication - Started McsRegistroSospechosoApplication in 4.187 seconds (JVM running for 5.26)
+2020-03-20 23:57:04,400 [http-nio-8080-exec-1] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /swagger-ui.html
+2020-03-20 23:57:04,454 [http-nio-8080-exec-2] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/springfox.css
+2020-03-20 23:57:04,462 [http-nio-8080-exec-3] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/swagger-ui.css
+2020-03-20 23:57:04,465 [http-nio-8080-exec-6] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/springfox.js
+2020-03-20 23:57:04,466 [http-nio-8080-exec-5] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/swagger-ui-bundle.js
+2020-03-20 23:57:04,468 [http-nio-8080-exec-4] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js
+2020-03-20 23:57:05,093 [http-nio-8080-exec-7] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/favicon-16x16.png
+2020-03-20 23:57:05,107 [http-nio-8080-exec-8] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /swagger-resources/configuration/ui
+2020-03-20 23:57:05,183 [http-nio-8080-exec-9] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /swagger-resources/configuration/security
+2020-03-20 23:57:05,207 [http-nio-8080-exec-10] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /swagger-resources
+2020-03-20 23:57:05,335 [http-nio-8080-exec-1] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /v2/api-docs
+2020-03-20 23:57:05,336 [http-nio-8080-exec-1] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped to public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2020-03-20 23:57:05,342 [http-nio-8080-exec-3] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /
+2020-03-20 23:57:05,348 [http-nio-8080-exec-2] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2
+2020-03-20 23:57:05,356 [http-nio-8080-exec-6] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2
+2020-03-20 23:57:05,370 [http-nio-8080-exec-3] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /index.html
+2020-03-20 23:57:05,393 [http-nio-8080-exec-4] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /csrf
+2020-03-20 23:57:05,397 [http-nio-8080-exec-4] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /error
+2020-03-20 23:57:05,675 [http-nio-8080-exec-5] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2
+2020-03-20 23:57:05,683 [http-nio-8080-exec-5] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2
+2020-03-20 23:57:08,343 [http-nio-8080-exec-7] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2
+2020-03-20 23:57:08,643 [http-nio-8080-exec-8] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2
+2020-03-20 23:57:29,698 [http-nio-8080-exec-9] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /servicio/v0.0.1/registra-caso
+2020-03-20 23:57:44,314 [http-nio-8080-exec-9] ERROR pe.gob.minsa.sospechoso.dao.impl.SospechosoDaoImpl - Error retrieving database meta-data; nested exception is org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.microsoft.sqlserver.jdbc.SQLServerException: The connection to the host 10.10.2.62, named instance devsqlsrv failed. Error: "java.net.SocketTimeoutException: Receive timed out". Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.
+2020-03-20 23:57:44,409 [http-nio-8080-exec-10] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2
+2020-03-20 23:58:13,502 [http-nio-8080-exec-1] DEBUG springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - looking up handler for path: /servicio/v0.0.1/registra-caso
