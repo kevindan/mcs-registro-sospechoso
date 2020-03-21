@@ -35,8 +35,6 @@ public class Sospechoso implements Serializable{
 	private String sintomaRespiracion;
 	private String codUsuario;
 	private String fecInicioSintomas;
-	private String riesgo;
-	private String sospechoso;
 	private String riesgoAdulto;
 	private String riesgoNiño;
 	private String riesgoGestante;
@@ -56,8 +54,8 @@ public class Sospechoso implements Serializable{
 			String visitoPaisCorona, String codPais1, String codPais2, String codPais3, String fecPais1,
 			String fecPais2, String fecPais3, String sintomaFiebre, String sintomaTos, String sintomaCongestionNasal,
 			String sintomaGarganta, String sintomaRespiracion, String codUsuario, String fecInicioSintomas,
-			String riesgo, String sospechoso, String riesgoAdulto, String riesgoNiño, String riesgoGestante,
-			String riesgoFamiliar, String fecIngresoPeru, String horIngresoPeru, String latitud, String longitud) {
+			String riesgoAdulto, String riesgoNiño, String riesgoGestante, String riesgoFamiliar, String fecIngresoPeru,
+			String horIngresoPeru, String latitud, String longitud) {
 		
 		this.tipDocumento = tipDocumento;
 		this.numDocumento = numDocumento;
@@ -88,8 +86,6 @@ public class Sospechoso implements Serializable{
 		this.sintomaRespiracion = sintomaRespiracion;
 		this.codUsuario = codUsuario;
 		this.fecInicioSintomas = fecInicioSintomas;
-		this.riesgo = riesgo;
-		this.sospechoso = sospechoso;
 		this.riesgoAdulto = riesgoAdulto;
 		this.riesgoNiño = riesgoNiño;
 		this.riesgoGestante = riesgoGestante;
@@ -332,22 +328,6 @@ public class Sospechoso implements Serializable{
 		this.fecInicioSintomas = fecInicioSintomas;
 	}
 
-	public String getRiesgo() {
-		return riesgo;
-	}
-
-	public void setRiesgo(String riesgo) {
-		this.riesgo = riesgo;
-	}
-
-	public String getSospechoso() {
-		return sospechoso;
-	}
-
-	public void setSospechoso(String sospechoso) {
-		this.sospechoso = sospechoso;
-	}
-
 	public String getRiesgoAdulto() {
 		return riesgoAdulto;
 	}
@@ -423,11 +403,11 @@ public class Sospechoso implements Serializable{
 				+ ", fecPais1=" + fecPais1 + ", fecPais2=" + fecPais2 + ", fecPais3=" + fecPais3 + ", sintomaFiebre="
 				+ sintomaFiebre + ", sintomaTos=" + sintomaTos + ", sintomaCongestionNasal=" + sintomaCongestionNasal
 				+ ", sintomaGarganta=" + sintomaGarganta + ", sintomaRespiracion=" + sintomaRespiracion
-				+ ", codUsuario=" + codUsuario + ", fecInicioSintomas=" + fecInicioSintomas + ", riesgo=" + riesgo
-				+ ", sospechoso=" + sospechoso + ", riesgoAdulto=" + riesgoAdulto + ", riesgoNiño=" + riesgoNiño
-				+ ", riesgoGestante=" + riesgoGestante + ", riesgoFamiliar=" + riesgoFamiliar + ", fecIngresoPeru="
-				+ fecIngresoPeru + ", horIngresoPeru=" + horIngresoPeru + ", latitud=" + latitud + ", longitud="
-				+ longitud + "]";
+				+ ", codUsuario=" + codUsuario + ", fecInicioSintomas=" + fecInicioSintomas + ", riesgoAdulto="
+				+ riesgoAdulto + ", riesgoNiño=" + riesgoNiño + ", riesgoGestante=" + riesgoGestante
+				+ ", riesgoFamiliar=" + riesgoFamiliar + ", fecIngresoPeru=" + fecIngresoPeru + ", horIngresoPeru="
+				+ horIngresoPeru + ", latitud=" + latitud + ", longitud=" + longitud + "]";
 	}
+	
 		
 }

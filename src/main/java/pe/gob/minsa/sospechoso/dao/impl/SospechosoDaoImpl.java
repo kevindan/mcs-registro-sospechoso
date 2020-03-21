@@ -116,6 +116,7 @@ public class SospechosoDaoImpl extends JdbcDaoSupport implements SospechosoDao {
 		try {
 			Map<String, Object> outParam = registraSospechoso.execute(inParam);
 			String sMen = (String) outParam.get("@sMen");
+			logger.error("::Mensaje del SP :: ==> "+sMen);
 			if(sMen.equals("ok") || sMen.equals("OK")) {
 				respuesta = "0000";
 			}else {

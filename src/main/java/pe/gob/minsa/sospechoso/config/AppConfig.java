@@ -13,8 +13,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @ComponentScan({"pe.gob.minsa.sospechoso.*"})
 @EnableTransactionManagement
-//@PropertySource(value= {"file:/opt/data/mcs-minsa/properties/mcs-registro-sospechoso.properties"})
-@PropertySource(value= {"classpath:mcs-registro-sospechoso.properties"})
+@PropertySource(value= {"file:/opt/data/mcs-minsa/properties/mcs-registro-sospechoso.properties"})
+//@PropertySource(value= {"classpath:mcs-registro-sospechoso.properties"})
 public class AppConfig {
 	
     @Bean

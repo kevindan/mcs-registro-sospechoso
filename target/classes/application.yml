@@ -6,5 +6,5 @@ spring:
   aop:
     proxy-target-class: true
 
-#logging:
-#  config: /opt/data/mcs-minsa/log/mcs-registro-sospechoso/config/log4j2-mcs-registro-sospechoso.xml
+logging:
+  config: /opt/data/mcs-minsa/log/mcs-registro-sospechoso/config/log4j2-mcs-registro-sospechoso.xml

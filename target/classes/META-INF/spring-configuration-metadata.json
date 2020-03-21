@@ -4,7 +4,7 @@
       "name": "spring.datasource",
       "type": "javax.sql.DataSource",
       "sourceType": "pe.gob.minsa.sospechoso.config.AppConfig",
-      "sourceMethod": "dataSource()"
+      "sourceMethod": "public javax.sql.DataSource dataSource() "
     }
   ],
   "properties": [],
