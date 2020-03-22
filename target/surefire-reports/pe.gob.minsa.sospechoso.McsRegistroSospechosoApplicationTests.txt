@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: pe.gob.minsa.sospechoso.McsRegistroSospechosoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.832 s - in pe.gob.minsa.sospechoso.McsRegistroSospechosoApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.151 s - in pe.gob.minsa.sospechoso.McsRegistroSospechosoApplicationTests

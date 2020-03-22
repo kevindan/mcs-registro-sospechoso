@@ -118,7 +118,7 @@ public class SospechosoDaoImpl extends JdbcDaoSupport implements SospechosoDao {
 			String sMen = (String) outParam.get("@sMen");
 			logger.error("::Mensaje del SP :: ==> "+sMen);
 			if(sMen.equals("ok") || sMen.equals("OK")) {
-				respuesta = "0000";
+				respuesta = "000";
 			}else if(sMen.equals("001")) {
 				respuesta = "001";
 			}else {
